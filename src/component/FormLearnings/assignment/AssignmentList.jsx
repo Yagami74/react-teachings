@@ -44,6 +44,12 @@ const AssignmentList = () => {
         <Link className="primary-link" to="/assignments/new">
           + Create assignment
         </Link>
+        <Link className="primary-link" to="/product/new">
+          + Create Product
+        </Link>
+        <Link className="primary-link" to="/event/new">
+          + Create Event
+        </Link>
       </section>
 
       {status === "loading" && (
